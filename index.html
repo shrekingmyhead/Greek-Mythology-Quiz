@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Greek God Quiz</title>
+</head>
+<body class="bg-gray-950 text-slate-50">
+    <div class="container text-center my-24 mx-auto max-w-[800px] border border-pink-400 px-12 py-12">
+        <h1 class="text-4xl font-bold hover:text-pink-400">Greek Mythology Quiz</h1>
+        <div id="score" class="mt-12 text-cyan-800 font-bold text-lg">
+            Score: <span id="correct">0</span> / <span id="completed">0</span>
+        </div>
+        <div class="display-question text-xl mt-12"></div>
+        <div class="display-answer flex  justify-center items-center mt-12 gap-6">
+        </div>
+        <button id="next-question" name="next-question" class="mt-12 rounded-full bg-pink-400 py-3 px-6 cursor-pointer hover:bg-cyan-800">Next Question</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
